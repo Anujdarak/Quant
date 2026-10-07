@@ -2,7 +2,6 @@
 import yfinance as yf
 import pandas as pd
 
-# Download 1 year of Apple stock data
 df = yf.download("AAPL", period="1y")
 
 print(df.head())
@@ -37,4 +36,3 @@ df.to_csv("Apple_stock_data.csv")
 
 
 TASK 6:
-

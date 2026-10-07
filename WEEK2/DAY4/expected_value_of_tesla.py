@@ -12,7 +12,6 @@ print("Expected value of tesla stocks:", expected_value)
 
 
 
-# TASK4:
 import numpy as np
 
 results = np.random.choice(
@@ -22,9 +21,3 @@ results = np.random.choice(
 )
 
 print("Average simulated return:", results.mean())
-
-
-
-# Both calculations estimate returns: the first uses company data, while the second
-# simulates 10,000 trades. The simulated average generally stabilizes around 0.75%,
-# illustrating the Law of Large Numbers.

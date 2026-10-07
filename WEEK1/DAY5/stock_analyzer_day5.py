@@ -2,7 +2,6 @@ import yfinance as yf
 import pandas as pd
 import matplotlib.pyplot as plt
 
-# Download 1 year of Apple stock data
 df = yf.download("AAPL", period="1y")
 
 print(df.head())
